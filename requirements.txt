@@ -1,0 +1,2 @@
+folium~=0.19.5
+geopandas~=1.0.1
