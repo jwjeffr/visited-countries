@@ -5,8 +5,8 @@ import geopandas as gpd
 def main():
 
     # List of countries you've visited (can also use ISO codes)
-    visited_countries = {'US', 'MX', 'ES', 'CA', 'KY', 'BZ', 'GT'}
-    about_to_visit = {'QA', 'VN', 'DO', 'JM', 'MX'}
+    visited_countries = {'US', 'MX', 'ES', 'CA', 'KY', 'BZ', 'GT', 'QA', 'VN', 'JP'}
+    about_to_visit = {'JM'}
 
     # Load world geometries
     world = gpd.read_file("ne_10m_admin_0_map_subunits.zip")
